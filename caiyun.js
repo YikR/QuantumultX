@@ -8,8 +8,7 @@
 
 [rewrite_local]
 
-^https:\/\/biz\.(caiyunapp|cyapi)\.(com|cn) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
-
+^https:\/\/biz\.(caiyunapp|cyapi)\.(com|cn) url script-response-body https://raw.githubusercontent.com/YikR/QuantumultX/master/caiyun.js
 ^https:\/\/ad\.caiyunapp\.com\/ url reject
 
 [mitm]
